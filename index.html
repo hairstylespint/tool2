@@ -52,8 +52,7 @@
             padding: 15px;
             background: #eef2ff;
             border-radius: 5px;
-            font-size: 18px;
-            font-weight: bold;
+            font-size: 18px;            
             text-align: left;
         }
     </style>
@@ -81,9 +80,7 @@
     
     <script>
         function generateOutput() {
-            const numbers = [25, 37, 47, 28, 36, 44, 29, 38, 45];
-            const words = ["Best", "Amazing", "Discover", "Ultimate", "Seasonal", "Top", "Trends", "Perfect", "Simple", "Hacks"];
-            
+                    
             const judul = document.getElementById("judul").value;
             const text1 = document.getElementById("text1").value;
             const text2 = document.getElementById("text2").value;
@@ -91,7 +88,7 @@
             const text4 = document.getElementById("text4").value;
             const text5 = document.getElementById("text5").value;
             
-            const output1 = `{25|37|47|28|36|44|29|38|45} {Best|Amazing|Discover|Ultimate|Seasonal|Top|Trends|Perfect|Simple|Hacks} ${judul} - Room Decor`;
+            const output1 = `{✨|🌟|👑|🔥} {Best|Amazing|Viral|Sweet|Gorgeous|Lovable|Cute|Charming|Lovely|Easy|Trends} ${judul} {Ideas for You|Must Try}`;
             const outputParagraph = `{${text1}|${text2}|${text3}|${text4}|${text5}}`;
             
             document.getElementById("output").innerHTML = `${output1}<br><p>${outputParagraph}</p>`;
